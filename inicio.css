@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Fira+Code&family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  user-select: none;
+}
+
+body {   
+  font-size: 100%;
+  background: var(--cor--2);
+  color: var(--cor--1);
+}
+
+:root {
+  /*    > CORES < */
+  --cor--0: #000000;
+  --cor--1: #ffffff;
+  --cor--2: #00131f;
+  --cor--3: #001827;
+  --cor--4: #002841;
+  --cor--5: #003455;
+  --cor--6: #004e7e;
+  --cor--7: #0064a2;
+  --cor--8: #00c2ee;
+
+  /*    > FONTES < */
+  --font--1: "Chakra Petch", sans-serif;
+  --font--2: "Montserrat", sans-serif;
+  --font--3: ;
+  --font--4: ;
+
+  /*    > UNIDADE DE MEDIDA: TAMANHO DA LETRA < */
+  --tam_font--01: 0.1rem;
+  --tam_font--02: 0.2rem;
+  --tam_font--03: 0.3rem;
+  --tam_font--04: 0.4rem;
+  --tam_font--05: 0.5rem;
+  --tam_font--06: 0.6rem;
+  --tam_font--07: 0.7rem;
+  --tam_font--08: 0.8rem;
+  --tam_font--09: 0.9rem;
+  --tam_font--0: 1rem;
+  --tam_font--1: 1.1rem;
+  --tam_font--2: 1.2rem;
+  --tam_font--3: 1.3rem;
+  --tam_font--4: 1.4rem;
+  --tam_font--5: 1.5rem;
+  --tam_font--6: 1.6rem;
+  --tam_font--7: 1.7rem;
+  --tam_font--8: 1.8rem;
+  --tam_font--9: 1.9rem;
+  --tam_font--10: 2rem; 
+}
+
+
+
+header {
+  margin: 0px 0px 90px 0px
+}
+
+.conteudo_cabecalho_1 {
+  background-color: var(--cor--4);
+  margin: 20px 0px 0px 0px;
+}
+    
+.inicio {
+  padding: 20px;
+  font-size: var(--tam_font--3);
+  font-family: var(--font--2)
+}
+  
+.conteudo_cabecalho_2 {
+  background-color: var(--cor--5);
+}
+  
+.boas_vindas {
+  padding: 50px;
+  color: var(--cor--8);
+  font-size: var(--tam_font--9);
+  font-family: var(--font--1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-shadow:
+  
+  /* iluminação do texto */
+  0 0 0px #00d0ff,
+  0 0 0px #00d0ff,
+  0 0 0px #00d0ff,
+  
+  /* iluminação de fundo */  
+  0 0 0px #00d0ff,
+  0 0 0px #00d0ff,
+  0 0 0px #3aa0ff,
+  0 0 0px #3aa0ff,
+  0 0 20px #00c2ee;
+}
+
+
+
+section {
+  margin: 0px 400px 20px 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0px solid;
+}
+
+.cabecalho {
+  margin: 0px 0px 30px 0px;
+  font-size: var(--tam_font--1);
+  font-family: var(--font--2);
+  display: flex;
+  flex-direction: column;
+}
+
+.container_conteudos {
+  background-color: var(--cor--4);
+  margin: 50px 0px 0px 0px;
+}
+
+.conteudo {
+  margin: 0px 0px 30px 0px;
+  background-color: var(--cor--3);
+  border: solid 1px var(--cor--8);
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+  width: 55px;
+  margin: 10px 8px 10px 8px;
+}
+
+.assunto {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+}
+
+.titulo {   
+  margin: 0px 0px 5px 17px;
+  font-size: var(--tam_font--1);
+  font-family: var(--font--1);
+}
+
+.texto {
+  margin: 0px 17px 10px 17px;
+  font-size: var(--tam_font--09);
+  font-family: var(--font--2);
+}
+
+.texto_final {
+  font-size: var(--tam_font--1);
+  font-family: var(--font--2);  
+}
+
+
+
+
+.container_nav {
+  display: flex;  
+}
+
+.botao_seguir {
+  background-color: var(--cor--8);
+  border-radius: 2px;
+  margin: 30px 0px 30px 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.clicavel {
+  padding: 8px 15px 8px 15px;
+  color: var(--cor--2);
+  font-size: var(--tam_font--0);
+  font-family: var(--font--1);    
+}
+
+.clicavel:hover{
+   box-shadow:
+
+  /* iluminação do texto (cor verde: #5cfff7)*/
+    0 0 0px #00d0ff,
+    0 0 0px #00d0ff,
+    0 0 0px #00d0ff,
+
+  /* iluminação de fundo */  
+    0 0 0px #00d0ff,
+    0 0 0px #00d0ff,
+    0 0 0px #3aa0ff,
+    0 0 0px #3aa0ff,
+    0 0 7px #00ffee;
+  /*  box-shadow: 0 0 7px #00d0ff;
+    text-shadow: 0 0 15px #00d0ff;*/ 
+}
+
+
+
+@media (max-width:1100px) {
+    .inicio {
+      padding: 19.5px;
+      font-size: var(--tam_font--3);
+    }
+
+    .boas_vindas {
+      padding: 49.5px;
+      font-size: var(--tam_font--9);
+    }
+
+    section {
+      margin: 0px 210px 20px 210px;
+    }
+}
+
+@media (max-width:1000px) {
+    .inicio {
+      padding: 19px;
+      font-size: var(--tam_font--3);
+    }
+
+    .boas_vindas {
+      padding: 49px;
+      font-size: var(--tam_font--9);
+    }
+
+    section {
+      margin: 0px 160px 20px 160px;
+    }
+}
+
+@media (max-width:900px) {
+    .inicio {
+      padding: 18px;
+      font-size: var(--tam_font--2);
+    }
+
+    .boas_vindas {
+      padding: 48px;
+      font-size: var(--tam_font--8);
+    }
+
+    section {
+      margin: 0px 130px 20px 130px;
+    }
+
+    .cabecalho {
+      margin: 0px 0px 29px 0px;
+      font-size: var(--tam_font--0);
+    }
+
+    .titulo {
+      margin: 0px 0px 5px 17px;
+      font-size: var(--tam_font--0);
+    }
+
+    .texto {
+      margin: 0px 17px 10px 17px;
+      font-size: var(--tam_font--08);
+    }
+
+    .sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+      width: 53px;
+      margin: 10px 8px 10px 8px;
+    }
+
+    .texto_final {
+      font-size: var(--tam_font--0);
+    }
+
+    .clicavel {
+      padding: 7px 14px 7px 14px;
+      font-size: var(--tam_font--09);
+    }  
+}
+
+@media (max-width:800px) {
+    .inicio {
+        padding: 17px;
+        font-size: var(--tam_font--1);
+    }
+
+    .boas_vindas {
+        padding: 47px;
+        font-size: var(--tam_font--7);
+    }
+
+    section {
+        margin: 0px 100px 20px 100px;
+    }
+
+    .cabecalho {
+      margin: 0px 0px 28px 0px;
+      font-size: var(--tam_font--09);
+    }
+
+    .titulo {
+      margin: 0px 0px 5px 17px;
+      font-size: var(--tam_font--09);
+    }
+
+    .texto {
+      margin: 0px 17px 10px 17px;
+      font-size: var(--tam_font--08);
+    }
+
+    .sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+      width: 52px;
+      margin: 9px 7px 9px 8px;
+    }
+
+    .texto_final {
+      font-size: var(--tam_font--09);
+    }
+
+    .clicavel {
+      padding: 7px 14px 7px 14px;
+      font-size: var(--tam_font--08);
+    }
+}
+
+@media (max-width:700px) {
+    .inicio {
+        padding: 15px;
+        font-size: var(--tam_font--0);
+    }
+
+    .boas_vindas {
+        padding: 45px;
+        font-size: var(--tam_font--6);
+    }
+
+    section {
+        margin: 0px 80px 20px 80px;
+    }
+
+    .cabecalho {
+      margin: 0px 0px 27px 0px;
+      font-size: var(--tam_font--08);
+    }
+
+    .titulo {
+      margin: 0px 0px 5px 17px;
+      font-size: var(--tam_font--08);
+    }
+
+    .texto {
+      margin: 0px 17px 10px 17px;
+      font-size: var(--tam_font--06);
+    }
+
+    .sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+      width: 52px;
+      margin: 9px 7px 9px 8px;
+    }
+
+    .texto_final {
+      font-size: var(--tam_font--09);
+    }
+
+    .clicavel {
+      padding: 7px 14px 7px 14px;
+      font-size: var(--tam_font--08);
+    }
+}
+
+@media (max-width:600px) {
+    .inicio {
+        padding: 13px;
+        font-size: var(--tam_font--09);
+    }
+
+    .boas_vindas {
+        padding: 43px;
+        font-size: var(--tam_font--5);
+    }
+
+    section {
+        margin: 0px 65px 20px 65px;
+    }
+
+    .cabecalho {
+      margin: 0px 0px 27px 0px;
+      font-size: var(--tam_font--08);
+    }
+
+    .titulo {
+      margin: 0px 0px 5px 17px;
+      font-size: var(--tam_font--08);
+    }
+
+    .texto {
+      margin: 0px 17px 10px 17px;
+      font-size: var(--tam_font--06);
+    }
+
+    .sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+      width: 52px;
+      margin: 9px 7px 9px 8px;
+    }
+
+    .texto_final {
+      font-size: var(--tam_font--09);
+    }
+
+    .clicavel {
+      padding: 7px 14px 7px 14px;
+      font-size: var(--tam_font--08);
+    }
+}
+
+@media (max-width:500px) {
+    .inicio {
+        padding: 11px;
+        font-size: var(--tam_font--08);
+    }
+
+    .boas_vindas {
+        padding: 41px;
+        font-size: var(--tam_font--5);
+    }
+
+    section {
+        margin: 0px 45px 20px 45px;
+    }
+
+    .cabecalho {
+      margin: 0px 0px 27px 0px;
+      font-size: var(--tam_font--07);
+    }
+
+    .titulo {
+      margin: 0px 0px 5px 17px;
+      font-size: var(--tam_font--07);
+    }
+
+    .texto {
+      margin: 0px 17px 10px 17px;
+      font-size: var(--tam_font--06);
+    }
+
+    .sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+      width: 51px;
+      margin: 8px 6px 8px 7px;
+    }
+
+    .texto_final {
+      font-size: var(--tam_font--08);
+    }
+
+    .clicavel {
+      padding: 6px 13px 6px 13px;
+      font-size: var(--tam_font--07);
+    }
+}
+
+@media (max-width:400px) {
+    .inicio {
+        padding: 8px;
+        font-size: var(--tam_font--07);
+    }
+
+    .boas_vindas {
+        padding: 38px;
+        font-size: var(--tam_font--4);
+    }
+
+    section {
+        margin: 0px 15px 20px 15px;
+    }
+
+    .cabecalho {
+      margin: 0px 0px 27px 0px;
+      font-size: var(--tam_font--07);
+    }
+
+    .titulo {
+      margin: 0px 0px 5px 17px;
+      font-size: var(--tam_font--07);
+    }
+
+    .texto {
+      margin: 0px 17px 10px 17px;
+      font-size: var(--tam_font--06);
+    }
+
+    .sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+      width: 51px;
+      margin: 8px 6px 8px 7px;
+    }
+
+    .texto_final {
+      font-size: var(--tam_font--08);
+    }
+
+    .clicavel {
+      padding: 6px 13px 6px 13px;
+      font-size: var(--tam_font--07);
+    }
+}
+
+@media (max-width:300px) {
+    .inicio {
+        padding: 6px;
+        font-size: var(--tam_font--06);
+    }
+
+    .boas_vindas {
+        padding: 36px;
+        font-size: var(--tam_font--3);
+    }
+
+    section {
+        margin: 0px 10px 20px 10px;
+    }
+
+    .cabecalho {
+      margin: 0px 0px 27px 0px;
+      font-size: var(--tam_font--06);
+    }
+
+    .titulo {
+      margin: 0px 0px 5px 17px;
+      font-size: var(--tam_font--06);
+    }
+
+    .texto {
+      margin: 0px 17px 10px 17px;
+      font-size: var(--tam_font--05);
+    }
+
+    .sobre_mim_ilustracao, .certificacoes_ilustracao, .projetos_ilustracao {
+      width: 50px;
+      margin: 7px 5px 7px 6px;
+    }
+
+    .texto_final {
+      font-size: var(--tam_font--07);
+    }
+
+    .clicavel {
+      padding: 6px 13px 6px 13px;
+      font-size: var(--tam_font--06);
+    }
+}

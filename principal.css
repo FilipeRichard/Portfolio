@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Fira+Code&family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  user-select: none;
+}
+
+body {   
+  font-size: 100%;
+  background: var(--cor--2);
+  color: var(--cor--1);
+}
+
+:root {
+  /*    > CORES < */
+  --cor--0: #000000;
+  --cor--1: #ffffff;
+  --cor--2: #00131f;
+  --cor--3: #001827;
+  --cor--4: #002841;
+  --cor--5: #003455;
+  --cor--6: #004e7e;
+  --cor--7: #0064a2;
+  --cor--8: #00c2ee;
+  --cor--9: #a4ebfb;
+
+  /*    > FONTES < */
+  --font--1: "Chakra Petch", sans-serif;
+  --font--2: "Montserrat", sans-serif;
+  --font--3: ;
+  --font--4: ;
+
+  /*    > UNIDADE DE MEDIDA: TAMANHO DA LETRA < */
+  --tam_font--01: 0.1rem;
+  --tam_font--02: 0.2rem;
+  --tam_font--03: 0.3rem;
+  --tam_font--04: 0.4rem;
+  --tam_font--05: 0.5rem;
+  --tam_font--06: 0.6rem;
+  --tam_font--07: 0.7rem;
+  --tam_font--08: 0.8rem;
+  --tam_font--09: 0.9rem;
+  --tam_font--0: 1rem;
+  --tam_font--1: 1.1rem;
+  --tam_font--2: 1.2rem;
+  --tam_font--3: 1.3rem;
+  --tam_font--4: 1.4rem;
+  --tam_font--5: 1.5rem;
+  --tam_font--6: 1.6rem;
+  --tam_font--7: 1.7rem;
+  --tam_font--8: 1.8rem;
+  --tam_font--9: 1.9rem;
+  --tam_font--10: 2rem; 
+}
+
+
+
+header {
+  margin: 0px 0px 90px 0px;
+}
+
+.conteudo_cabecalho_1 {
+  background-color: var(--cor--4);
+  margin: 20px 0px 0px 0px;
+}
+
+.principal {
+  padding: 20px;
+  font-size: var(--tam_font--3);
+  font-family: var(--font--2)
+}
+
+.conteudo_cabecalho_2 {
+  background-color: var(--cor--5);
+}
+
+.certificados_projetos {
+  padding: 50px;
+  color: var(--cor--8);
+  font-size: var(--tam_font--9);
+  font-family: var(--font--1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-shadow:
+
+/* iluminação do texto */
+  0 0 0px #00d0ff,
+  0 0 0px #00d0ff,
+  0 0 0px #00d0ff,
+
+/* iluminação de fundo */  
+  0 0 0px #00d0ff,
+  0 0 0px #00d0ff,
+  0 0 0px #3aa0ff,
+  0 0 0px #3aa0ff,
+  0 0 20px #00c2ee;
+}
+
+
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteudo_principal {
+  background-color: var(--cor--4);
+  width: 60%;
+}
+
+.titulo {
+  margin: 40px 0px 15px 0px;
+  font-size: var(--tam_font--1);
+  font-family: var(--font--1);
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteudos {
+  margin: 0px 10px 40px 10px;
+}
+
+.subtitulo {
+  padding: 10px 0px 10px 0px;
+  background-color: var(--cor--6);
+  font-size: var(--tam_font--09);
+  font-family: var(--font--1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links_conteudo {
+  border-bottom: 8px solid var(--cor--6);
+  border-left: 8px solid var(--cor--6);
+  border-right: 8px solid var(--cor--6);
+}
+
+.gaveta {
+  background-color: var(--cor--9);
+  border: 1px solid var(--cor--6);
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  text-decoration: none;
+}
+
+.text_link {
+  margin: 10px 10px 10px 10px;
+  color: var(--cor--2);
+  font-family: var(--font--2);
+  display: flex;
+}
+
+.espaco {
+  border: 5px solid var(--cor--4);
+}
+
+
+.container_nav {
+  display: flex;  
+}
+
+.botao_voltar {
+  background-color: var(--cor--8);
+  border-radius: 2px;
+  margin: 30px 0px 30px 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.clicavel {
+  padding: 8px 15px 8px 15px;
+  color: var(--cor--2);
+  font-size: var(--tam_font--0);
+  font-family: var(--font--1);    
+}
+
+.clicavel:hover{
+   box-shadow:
+
+  /* iluminação do texto (cor verde: #5cfff7)*/
+    0 0 0px #00d0ff,
+    0 0 0px #00d0ff,
+    0 0 0px #00d0ff,
+
+  /* iluminação de fundo */  
+    0 0 0px #00d0ff,
+    0 0 0px #00d0ff,
+    0 0 0px #3aa0ff,
+    0 0 0px #3aa0ff,
+    0 0 7px #00ffee;
+  /*  box-shadow: 0 0 7px #00d0ff;
+    text-shadow: 0 0 15px #00d0ff;*/ 
+}
+
+
+/* RESPONSIDADE */
+
+@media (max-width: 900px) {
+  .principal {
+    padding: 19px;
+    font-size: var(--tam_font--2);
+  }
+
+  .certificados_projetos {
+    padding: 49px;
+    font-size: var(--tam_font--8);
+  }
+
+  .conteudo_principal {
+    width: 62%;
+  }
+
+  .titulo {
+    margin: 38px 0px 13px 0px;
+    font-size: var(--tam_font--2);
+  }
+
+  .subtitulo {
+    padding: 10px 0px 10px 0px;
+    font-size: var(--tam_font--09);
+  }
+
+  .text_link {
+    margin: 9.5px 0px 9.5px 9.5px;
+    font-size: var(--tam_font--09);
+  }
+
+  .clicavel {
+    padding: 8px 11px 8px 11px;
+    font-size: var(--tam_font--0);
+  }
+}
+
+@media (max-width: 800px) {
+  .principal {
+    padding: 18px;
+    font-size: var(--tam_font--1);
+  }
+
+  .certificados_projetos {
+    padding: 47px;
+    font-size: var(--tam_font--7);
+  }
+
+  .conteudo_principal {
+    width: 64%;
+  }
+
+  .titulo {
+    margin: 36px 0px 12px 0px;
+    font-size: var(--tam_font-1);
+  }
+
+  .subtitulo {
+    padding: 10px 0px 10px 0px;
+    font-size: var(--tam_font--08);
+  }
+
+  .text_link {
+    margin: 10px 0px 10px 10px;
+    font-size: var(--tam_font--08);
+  }
+
+  .clicavel {
+    padding: 8px 11px 8px 11px;
+    font-size: var(--tam_font--0);
+  }
+}
+
+@media (max-width: 700px) {
+  .principal {
+    padding: 18px;
+    font-size: var(--tam_font--0);
+  }
+
+  .certificados_projetos {
+    padding: 46px;
+    font-size: var(--tam_font--6);
+  }
+
+  .conteudo_principal {
+    width: 73%;
+  }
+
+  .titulo {
+    margin: 36px 0px 12px 0px;
+    font-size: var(--tam_font-0);
+  }
+  .subtitulo {
+    padding: 10px 0px 10px 0px;
+    font-size: var(--tam_font--09);
+  }
+  .text_link {
+    margin: 10px 0px 10px 10px;
+    font-size: var(--tam_font--09);
+  }
+
+  .clicavel {
+    padding: 7px 10px 7px 10px;
+    font-size: var(--tam_font--09);
+  }
+}
+
+@media (max-width: 600px) {
+  .principal {
+    padding: 17px;
+    font-size: var(--tam_font--09);
+  }
+
+  .certificados_projetos {
+    padding: 46px;
+    font-size: var(--tam_font--5);
+  }
+
+  .conteudo_principal {
+    width: 79%;
+  }
+
+  .titulo {
+    margin: 38px 0px 13px 0px;
+    font-size: var(--tam_font--09);
+  }
+
+  .subtitulo {
+    padding: 10px 0px 10px 0px;
+    font-size: var(--tam_font--08);
+  }
+
+  .text_link {
+    margin: 10px 0px 10px 10px;
+    font-size: var(--tam_font--08);
+  }
+
+  .clicavel {
+    padding: 6px 9px 6px 9px;
+    font-size: var(--tam_font--08);
+  }
+}
+
+@media (max-width: 500px) {
+  .principal {
+    padding: 16px;
+    font-size: var(--tam_font--08);
+  }
+
+  .certificados_projetos {
+    padding: 45px;
+    font-size: var(--tam_font--4);
+  }
+
+  .conteudo_principal {
+    width: 84%;
+  }
+
+  .titulo {
+    margin: 38px 0px 13px 0px;
+    font-size: var(--tam_font--08);
+  }
+
+  .subtitulo {
+    padding: 10px 0px 10px 0px;
+    font-size: var(--tam_font--07);
+  }
+
+  .text_link {
+    margin: 10px 0px 10px 10px;
+    font-size: var(--tam_font--07);
+  }
+
+  .clicavel {
+    padding: 5px 8px 5px 8px;
+    font-size: var(--tam_font--07);
+  }
+}
+
+@media (max-width: 400px) {
+  .principal {
+    padding: 14px;
+    font-size: var(--tam_font--07);
+  }
+
+  .certificados_projetos {
+    padding: 43px;
+    font-size: var(--tam_font--3);
+  }
+
+  .conteudo_principal {
+    width: 90%;
+  }
+
+  .titulo {
+    margin: 38px 0px 13px 0px;
+    font-size: var(--tam_font--07);
+  }
+
+  .subtitulo {
+    padding: 10px 0px 10px 0px;
+    font-size: var(--tam_font--06);
+  }
+
+  .text_link {
+    margin: 10px 0px 10px 10px;
+    font-size: var(--tam_font--06);
+  }
+
+  .clicavel {
+    padding: 4px 7px 4px 7px;
+    font-size: var(--tam_font--06);
+  }
+}
+
+@media (max-width: 300px) {
+  .principal {
+    padding: 13px;
+    font-size: var(--tam_font--07);
+  }
+
+  .certificados_projetos {
+    padding: 42px;
+    font-size: var(--tam_font--3);
+  }
+
+  .conteudo_principal {
+    width: 90%;
+  }
+
+  .titulo {
+    margin: 38px 0px 13px 0px;
+    font-size: var(--tam_font--07);
+  }
+  .subtitulo {
+    padding: 10px 0px 10px 0px;
+    font-size: var(--tam_font--06);
+  }
+  .text_link {
+    margin: 10px 0px 10px 10px;
+    font-size: var(--tam_font--06);
+  }
+
+  .clicavel {
+    padding: 4px 7px 4px 7px;
+    font-size: var(--tam_font--06);
+  }
+}
